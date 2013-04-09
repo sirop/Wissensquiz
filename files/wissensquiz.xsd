@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="question">
+  <xs:simpleType>
+   <xs:restriction base="xs:string">
+     <xs:whiteSpace value="replace"/>
+   </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+<xs:element name="answer">
+ <xs:simpleType>
+  <xs:restriction base="xs:string">
+     <xs:whiteSpace value="replace"/>
+  </xs:restriction>
+ </xs:simpleType>
+</xs:element>
+
+<xs:element name="CorrectAnswer">
+ <xs:simpleType>
+  <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="4"/>
+  </xs:restriction>
+ </xs:simpleType>
+</xs:element>
+
+
+<xs:element name="QuestionAnswers" >
+  <xs:complexType mixed="true">
+    <xs:sequence>
+      <xs:element ref="question" />
+      <xs:element ref="answer"/>
+      <xs:element ref="answer"/>
+      <xs:element ref="answer"/>
+      <xs:element ref="answer"/>
+      <xs:element ref="CorrectAnswer"/>
+    </xs:sequence>
+  </xs:complexType>
+ </xs:element> 
+ 
+ <xs:element name="db">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="QuestionAnswers" minOccurs="1" maxOccurs="32767"/>
+    </xs:sequence>
+  </xs:complexType>
+ </xs:element> 
+ 
+</xs:schema>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db>
+ <QuestionAnswers>
+  <question>
+ Frage1 Frage1 Frage 1
+  </question>
+  <answer>Antwort 1</answer>
+        <answer>Antwort 2</answer>
+
+        <answer>Antwort 3</answer>
+
+        <answer> Antwort     4  </answer>
+
+         <CorrectAnswer>4 </CorrectAnswer>
+         </QuestionAnswers>
+         <QuestionAnswers>
+         <question>
+         Frage2 Frage2 Frage 2
+         </question>
+         <answer>Antwort 1</answer>
+
+          <answer>Antwort 2</answer>
+          <answer>Antwort 3</answer>
+         <answer>Antwort 4</answer>
+          <CorrectAnswer>2</CorrectAnswer>
+            </QuestionAnswers>
+            <QuestionAnswers>
+                <question>
+                Frage2 Frage2 Frage 2
+                </question>
+                <answer>Antwort 1</answer>
+                <answer>Antwort 2</answer>
+
+                <answer>Antwort 3</answer>
+                <answer>Antwort 4</answer>
+                 <CorrectAnswer>3</CorrectAnswer>
+                 </QuestionAnswers>
+                       <QuestionAnswers>
+                       <question>
+                      Frage3 Frage3 Frage 3
+                       </question>
+                       <answer>Antwort 1</answer>
+
+                       <answer>Antwort 2</answer>
+
+                       <answer>Antwort 3</answer>
+                       <answer>Antwort 4</answer>
+                        <CorrectAnswer>4</CorrectAnswer>
+</QuestionAnswers>
+                       <QuestionAnswers>
+                       <question>
+                       Frage4 Frage4 Frage 4
+                       </question>
+                       <answer>Anwort 1</answer>
+
+                       <answer>Antwort 2</answer>
+
+                       <answer>Antwort 3</answer>
+                       <answer>Antwort 4</answer>
+                        <CorrectAnswer>4</CorrectAnswer>
+
+                     </QuestionAnswers>
+</db>
+

@@ -1,0 +1,9 @@
+p1111111111111111111111111111,0.0003
+p2,0.04
+p3,0.0005
+ccccc,0
+Machine63131054,0
+ww,0
+wwwww,0
+bbbb,0
+wwwwwwwwwwwwww,0
