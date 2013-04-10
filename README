@@ -1,12 +1,12 @@
   This is a simple Qt application,
-  which is more a proof of consept than something serious.
+  which is more a proof of concept than something serious.
 
   The usage is more or less self explaining.
 
   Questions have to be defined according to XML Schema (wissensquiz.xsd)
   within an XML file (category_example.xml).
-  You can have as many as quiz categories as you like. Of course, their number should not exceed the
-  maximum integer of your system. ;)
+  You can have as many as quiz categories as you like. 
+  Of course, their number should not exceed the maximum integer of your system. ;)
 
   The Options tab lets you set a time limit (Zeitnot) and a number (Subset)
   of randomly chosen questions.
